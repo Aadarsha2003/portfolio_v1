@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+/* common css */
+html,
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Arvo', serif;
+	background-image: url("ball.jpg");
+}
+
+
+
+/* header */
+.navbar-brand{
+	font-size: 1.5rem;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+}
+
+/* home */
+#particles-js{
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	top: -20px; 	left: 0;
+	background:#527cec; 
+}
+
+#Name{
+	padding-top: 100px;
+	margin-top: 2rem;
+   font-size: 4rem;
+   font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+#tagline{
+    margin-top: 4rem;
+	font-size: 2rem;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 100px; 
+}
+
+#learn-more{
+	padding: .4rem 1rem;
+	max-width: 10rem;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 auto;
+	display: block;
+	border:2px solid  #fff;
+	border-radius: 1rem;
+	margin-top: 50px;
+	align-items: center;
+	padding-left: 10px;
+}
+
+#learn-more:hover{
+	font-size: 20px;
+	font-color: black;
+    max-width: 15rem;
+    
+}
+
+.callme{
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.row1{
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 20px;
+	font: Arial;
+    font-weight: 2px 2px 2px;
+    margin-bottom: 0px;
+}
+#about{
+	margin-top: 350px;
+}
+
+.center{
+	text-align: center;
+	margin-left: 400px;
+	margin-top: -50px;
+}
+
+.center1{
+	text-align: justify;
+	margin-left: 300px;
+	margin-right: 20pc;
+	text-decoration: none;
+}
+
+.center1:hover{
+	text-decoration: none;
+	text-underline-position: none;
+}
+
+.card-title{
+	text-align: center;
+	text-decoration: none;
+	color: red;
+	text-underline-position: none;
+}
+.slide{
+	float: right;
+	height: 500px;
+	width: 400px;
+	border-radius: 20px;
+	margin-right: -20px;
+}
+
+.left-child{
+	text-align: justify;
+	float: left;
+	margin-right: 200px; 
+    padding: 20px;
+}
+
+.right-child{
+margin-right: 200px;
+float: right;
+align-items: center;
+}
+
+#contact{
+	margin-top: 10px;
+}
+
+.card-body{
+	padding-top: -100px;
+}
+
+.me{
+	padding: 10px;
+	padding-left: 45px;
+	padding-top: 30px;
+}
+
+#margin{
+	padding-left: 300px;
+	padding: 20px;
+	padding-left: 170px;
+}
+
+#color{
+	color:	#FFFFFF;
+}
+
+#stuff{
+	font-size: 25px;
+	color: #501B1D;
+	font-family: "Semi-bold 600", italic;
+}
+
+#change{
+	color: #D79922
+}
+
+#stuffer{
+	font-size: 25px;
+	text-align: justify;
+	padding-top: 20px;
+}
+
+#stuffe{
+	font-size: 25px;
+	text-align: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#padding{
+	padding: 20px;
+}
